@@ -1,0 +1,122 @@
+/**
+ * Reset some basic elements
+ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: none;
+}
+
+.content {
+    padding: 0 4%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.input_wrap_box {
+    display: inline-block;
+    position: relative;
+    margin: 30px auto 0 auto;
+    width: 540px;
+    height: 48px;
+    border: 1px solid #b6b6b6;
+    text-align: left;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+#search {
+    background: #fdfdfd;
+    height: 70%;
+    width: 89%;
+    margin: 6px 0 0 7px;
+}
+
+.cur {
+    border: 1px solid #4791ff;
+}
+
+.image {
+    position: absolute;
+    right: 11px;
+    top: 19%;
+    cursor: pointer;
+}
+
+.search_btn {
+   /* display: inline-block;*/
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 188px;
+    border: 1px solid #B6B6B6;
+    cursor: pointer;
+}
+
+.search_btn:hover {
+    box-shadow: 1px 1px 1px #CCC;
+}
+
+
+/**
+*列表显示
+*/
+
+.label_box {
+    z-index: 99;
+    text-align: center;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.label {
+    height: 256px;
+}
+
+.label-pic {
+    margin-left: 5px;
+    width: 18px;
+    height: 18px;
+}
+.search_div {
+    display: none;
+    margin-top: 9px;
+    border-left: 1px solid #B6B6B6;
+    border-right: 1px solid #B6B6B6;
+    border-bottom: 1px solid #B6B6B6;
+}
+.search_ul {
+    margin-left: 6px;
+    white-space: nowrap;
+    overflow: scroll;
+}
+.search_ul li{
+    cursor: pointer;
+}

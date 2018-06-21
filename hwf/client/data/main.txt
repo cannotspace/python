@@ -1,0 +1,22 @@
+TripImputor: Real-time Imputing Taxi Trip Purpose Leveraging Multi-sourced Urban Data
+CrowdDeliver: Planning City-wide Package Delivery Paths Leveraging the Crowds of Taxis
+A Generic Framework for Constraint-Driven Data Selection in Mobile Crowd Photographing
+FlierMeet: A Mobile Crowdsensing System for Cross-Space Public Information Reposting, Tagging, and Sharing
+Fine-Grained Urban Event Detection and Characterization Based on Tensor Co-Factorization
+Container Port Performance Measurement and Comparison Leveraging Ship GPS Traces and Maritime Open Data
+Worker-Contributed Data Utility Measurement for Visual Crowdsensing Systems
+Sparse mobile crowdsensing: challenges and opportunities
+SPACE-TA: Cost-Effective Task Allocation Exploiting Intradata and Interdata Correlations in Sparse Crowdsensing
+Wi-Fi CSI based Behavior Recognition: from Signals, Actions to Activities
+iCrowd: Near-Optimal Task Allocation for Piggyback Crowdsensing
+Daehr: A Discriminant Analysis Framework for Electronic Health Record Data and an Application to Early Detection of Mental Health Disorders
+Participatory Cultural Mapping Based on Collective Behavior Data in Location Based Social Networks
+Modeling User Activity Preference by Leveraging User Spatial Temporal Characteristics in LBSNs
+Personalized Travel Package With Multi-Point-of-Interest Recommendation Based on Crowdsourced User Footprints
+Sensor-Based Activity Recognition
+Toward Context-Aware Mobile Social Networks
+The Emergence of Social and Community Intelligence
+Mobile Crowd Sensing and Computing: The Review of an Emerging Human-Powered Sensing Paradigm
+ActiveCrowd: A Framework for Optimized Multitask Allocation in Mobile Crowdsensing Systems
+Moving Destination Prediction Using Sparse Dataset: A Mobility Gradient Descent Approach
+Multi-objective Optimization based Allocation of Heterogeneous Spatial Crowdsourcing Tasks

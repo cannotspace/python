@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <title>ESI搜索</title>
+    <script type="text/javascript" src="comonjs/jquery-1.11.2.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/search.css" />
+</head>
+
+<body>
+    <div class="content">
+        <div>
+            <h1>高被引论文搜索</h1>
+        </div>
+        <div class="input_wrap_box">
+            <input type="text" id="search">
+            <div class="search_div">
+                <ul class="search_ul">
+                    <!-- <li>郑州的文武</li>
+                    <li>我来自新乡市</li>
+                    <li>我的母校是中原工学院</li>
+                    <li>我叫郑斌</li> -->
+                </ul>
+            </div>
+            <img src="./image/folder_stroke.png" class="image" onclick="upload_file()">
+            <input type="file" id="upload" style="display:none" onchange="readAsText()">
+        </div><button class="search_btn">搜索</button>
+        <div class="label_box">
+            <ul class="label"></ul>
+        </div>
+    </div>
+</body>
+<script>
+$("#search").mousedown(function() {
+    $('.input_wrap_box').addClass("cur");
+})
+
+$("#search").blur(function() {
+    $('.input_wrap_box').removeClass("cur");
+})
+
+$("#search").keydown(function(event) {
+    if (event.keyCode == 13) {
+        var str = $("#search").val();
+        add(str)
+        $("#search").val("");
+    }
+})
+
+function add(str) {
+    if (str.length != 0) {
+        var li_id = $(".label li:last-child").attr('id');
+        if (li_id != undefined) {
+            li_id = li_id.split('_');
+            li_id = parseInt(li_id[1]) + 1;
+        } else {
+            li_id = 0;
+        }
+        $(".label_box").css("display", "block");
+        var text = "<li id='li_" + li_id + "'><a href='javascript:;' onclick='deletes(" + li_id + ");' >" + str + "<img src='./image/x.png' class='label-pic'></a><input type='hidden' name='label[" + li_id + "].name' value='" + str + "'></li>";
+        $(".label").append(text);
+        $(".label_box").scrollTop($(".label_box")[0].scrollHeight)
+    }
+}
+
+function deletes(id) {
+    $("#li_" + id).remove();
+    var li_id = $(".label li:last-child").attr('id');
+    if (li_id == undefined) {
+        $(".label_box").css("display", "none");
+    }
+}
+
+$('.search_btn').on('click', function() {
+    var search_list = new Array();
+    $('.label').find('li').each(function() {
+        search_list.push($(this).text());
+    });
+    if ($("#search").val() != '')
+        search_list.push($("#search").val())
+    console.log(search_list);
+    $.ajax({
+        url: 'http://127.0.0.1:8080/search',
+        type: 'POST',
+        data: {
+            'search_list': JSON.stringify(search_list),
+        },
+        dataType: 'json', //返回的数据格式：json/xml/html/script/jsonp/text
+        beforeSend: function(xhr) {
+            // console.log(xhr)
+            // console.log('发送前')
+        },
+        success: function(data) {
+            // console.log(data)
+            data_str = eval("(" + JSON.stringify(data) + ")")
+            // console.log(data_str['data'])
+            if (data_str['status'] == 1)
+                window.location.href = "./main.html?request=search"
+            console.log(window.location.href)
+            console.log(data_str['data'])
+        },
+    });
+})
+
+function upload_file() {
+    $('#upload').click();
+}
+
+function readAsText(){
+    var file = $('#upload')[0].files[0];
+    var reader = new FileReader(); 
+    reader.readAsText(file);
+    reader.onload = function(){
+        arr = this.result.split("\r\n");
+        for (i = 0 ; i < arr.length; i++){
+            add(arr[i])
+        }
+    } 
+}
+
+$('#search').keyup(function(event) {
+    $(".search_ul").html("");
+    var str = $("#search").val();
+    $.ajax({
+        url: 'http://127.0.0.1:8080/approach',
+        type: 'POST',
+        data: {
+            'search': str,
+        },
+        dataType: 'json', //返回的数据格式：json/xml/html/script/jsonp/text
+        beforeSend: function(xhr) {
+            // console.log(xhr)
+            // console.log('发送前')
+        },
+        success: function(data) {
+            data_str = eval("(" + JSON.stringify(data) + ")");
+            if (data_str['status'] == 1){
+                html = '';
+                $.each(data_str['data'], function(key, value){
+                    html += "<li onclick = 'add(\""+value['title']+"\")'>" + value['title'] + "</li>";
+                })
+                if (html.length != 0){
+                    $(".search_ul").append(html);
+                    $(".search_div").css('display','block');
+                    console.log(html)
+                }
+                else{
+                    $(".search_div").css('display','none');
+                }
+            }
+        },
+    });
+});
+
+</script>
+
+</html>

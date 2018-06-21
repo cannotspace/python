@@ -1,0 +1,149 @@
+1526978512368	geckodriver	INFO	geckodriver 0.20.1
+1526978512387	geckodriver	INFO	Listening on 127.0.0.1:53571
+1526978515404	mozrunner::runner	INFO	Running command: "E:\\Program Files\\firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\hwf\\AppData\\Local\\Temp\\rust_mozprofile.VFBP3LONEpKr"
+*** You are running in headless mode.
+1526978530037	geckodriver	INFO	geckodriver 0.20.1
+1526978530055	geckodriver	INFO	Listening on 127.0.0.1:53602
+1526978533066	mozrunner::runner	INFO	Running command: "E:\\Program Files\\firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\hwf\\AppData\\Local\\Temp\\rust_mozprofile.H5YwZugVd2KU"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+1526978535004	Marionette	INFO	Listening on port 53610
+1526978535109	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 173: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 114: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 216: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 102: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 180: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 79: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 67: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 69: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 154: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 137: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 152: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 128: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 292: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 141: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 123: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 159: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 867: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 301: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[Parent 12020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch[Parent 12020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[Parent 12020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526978741307	geckodriver	INFO	geckodriver 0.20.1
+1526978741317	geckodriver	INFO	Listening on 127.0.0.1:53766
+1526978744341	mozrunner::runner	INFO	Running command: "E:\\Program Files\\firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\hwf\\AppData\\Local\\Temp\\rust_mozprofile.XhEpn3v8cVH6"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+1526978746098	Marionette	INFO	Listening on port 53780
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+1526978746359	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 173: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 114: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 216: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 102: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 180: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 79: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 67: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 69: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 154: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 137: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 152: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 128: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 292: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 141: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 123: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 159: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 867: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 301: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[Child 220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1526978778953	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 24952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24952, [Parent 12052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527666695670	geckodriver	INFO	geckodriver 0.20.1
+1527666695697	geckodriver	INFO	Listening on 127.0.0.1:56570
+1527667468840	geckodriver	INFO	geckodriver 0.20.1
+1527667468851	geckodriver	INFO	Listening on 127.0.0.1:56805
+1527667471870	mozrunner::runner	INFO	Running command: "E:\\Program Files\\firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\hwf\\AppData\\Local\\Temp\\rust_mozprofile.z6gRl878ifzA"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+1527667473843	Marionette	INFO	Listening on port 56813
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+1527667473921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 173: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 114: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 216: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 102: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 180: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 79: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 67: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 69: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 154: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 137: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 152: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 128: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 292: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 141: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 123: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 159: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 867: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 301: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[Child 11160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1416*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527669528033	geckodriver	INFO	geckodriver 0.20.1
+1527669528045	geckodriver	INFO	Listening on 127.0.0.1:57373
+1527669531050	mozrunner::runner	INFO	Running command: "E:\\Program Files\\firefox\\firefox.exe" "-marionette" "-headless" "-profile" "C:\\Users\\hwf\\AppData\\Local\\Temp\\rust_mozprofile.XYkKFdoBxuH0"
+*** You are running in headless mode.
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\hwf\AppData\Local\openvr\openvrpaths.vrpath
+1527669532966	Marionette	INFO	Listening on port 57381
+1527669533063	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 173: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 114: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 216: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 142: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 102: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 180: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 79: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 67: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 69: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 154: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 137: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 152: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 128: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 292: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 141: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 123: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 159: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 867: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://esi.incites.thomsonreuters.com/common/javascript/extjs/ext-all.js, line 301: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[Parent 14256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7480, [Parent 14256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
